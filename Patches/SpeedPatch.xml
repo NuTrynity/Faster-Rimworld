@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>2</defaultBaseValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StatDef[defName="ResearchSpeed"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>2</defaultBaseValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StatDef[defName="NegotiationAbility"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>2</defaultBaseValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StatDef[defName="GlobalLearningFactor"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>2</defaultBaseValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StatDef[defName="AimingDelayFactor"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>0</defaultBaseValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StatDef[defName="RangedWeapon_Cooldown"]/defaultBaseValue</xpath>
+        <value>
+            <defaultBaseValue>0.5</defaultBaseValue>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ToolCabinet"]/comps/li[@Class="CompProperties_Facility"]</xpath>
+        <value>
+            <li Class="CompProperties_Facility">
+                <statOffsets>
+                <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+                </statOffsets>
+                <maxSimultaneous>99</maxSimultaneous>
+            </li>
+        </value>
+    </Operation>
+</Patch>
