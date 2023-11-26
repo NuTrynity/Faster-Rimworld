@@ -38,7 +38,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StatDef[defName="RangedWeapon_Cooldown"]/defaultBaseValue</xpath>
         <value>
-            <defaultBaseValue>0.5</defaultBaseValue>
+            <defaultBaseValue>0.33</defaultBaseValue>
         </value>
     </Operation>
 
