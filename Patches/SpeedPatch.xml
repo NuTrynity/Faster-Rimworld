@@ -17,7 +17,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StatDef[defName="NegotiationAbility"]/defaultBaseValue</xpath>
         <value>
-            <defaultBaseValue>3</defaultBaseValue>
+            <defaultBaseValue>2</defaultBaseValue>
         </value>
     </Operation>
 
@@ -25,20 +25,6 @@
         <xpath>Defs/StatDef[defName="GlobalLearningFactor"]/defaultBaseValue</xpath>
         <value>
             <defaultBaseValue>2</defaultBaseValue>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/StatDef[defName="AimingDelayFactor"]/defaultBaseValue</xpath>
-        <value>
-            <defaultBaseValue>0</defaultBaseValue>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/StatDef[defName="RangedWeapon_Cooldown"]/defaultBaseValue</xpath>
-        <value>
-            <defaultBaseValue>0.33</defaultBaseValue>
         </value>
     </Operation>
 
