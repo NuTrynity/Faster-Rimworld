@@ -24,7 +24,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StatDef[defName="GlobalLearningFactor"]/defaultBaseValue</xpath>
         <value>
-            <defaultBaseValue>2</defaultBaseValue>
+            <defaultBaseValue>1.5</defaultBaseValue>
         </value>
     </Operation>
 
