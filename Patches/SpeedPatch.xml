@@ -29,13 +29,6 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/StatDef[defName="AimingDelayFactor"]/defaultBaseValue</xpath>
-        <value>
-            <defaultBaseValue>0</defaultBaseValue>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="ToolCabinet"]/comps/li[@Class="CompProperties_Facility"]</xpath>
         <value>
             <li Class="CompProperties_Facility">
