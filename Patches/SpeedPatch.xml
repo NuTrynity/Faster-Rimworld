@@ -8,13 +8,6 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/StatDef[defName="ResearchSpeed"]/defaultBaseValue</xpath>
-        <value>
-            <defaultBaseValue>2</defaultBaseValue>
-        </value>
-    </Operation>
-
-    <Operation Class="PatchOperationReplace">
         <xpath>Defs/StatDef[defName="NegotiationAbility"]/defaultBaseValue</xpath>
         <value>
             <defaultBaseValue>2</defaultBaseValue>
@@ -24,7 +17,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StatDef[defName="GlobalLearningFactor"]/defaultBaseValue</xpath>
         <value>
-            <defaultBaseValue>1.5</defaultBaseValue>
+            <defaultBaseValue>2</defaultBaseValue>
         </value>
     </Operation>
 
@@ -33,9 +26,9 @@
         <value>
             <li Class="CompProperties_Facility">
                 <statOffsets>
-                <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+                <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
                 </statOffsets>
-                <maxSimultaneous>99</maxSimultaneous>
+                <maxSimultaneous>2</maxSimultaneous>
             </li>
         </value>
     </Operation>
